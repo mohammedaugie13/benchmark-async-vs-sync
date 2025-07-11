@@ -1,0 +1,5 @@
+HFT Order Processing Benchmark Analysis
+Generated: 2025-07-10 17:15:30 UTC
+
+See benchmark_results.csv for raw data
+See benchmark_report.md for detailed report

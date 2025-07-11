@@ -1,0 +1,10 @@
+timestamp,name,operation_type,data_size,time_ns,time_us,time_ms,throughput_ops_per_sec,per_order_ns
+2025-07-10 17:15:30,sync_order_operations/single_threaded,Sync Single,100,46500,46.5,0.0465,2150537.634408602,465
+2025-07-10 17:15:30,sync_order_operations/single_threaded,Sync Single,1000,557000,557,0.557,1795332.1364452424,557
+2025-07-10 17:15:30,sync_order_operations/single_threaded,Sync Single,10000,5870000,5870,5.87,1703577.5127768314,587
+2025-07-10 17:15:30,sync_order_operations/concurrent,Sync Concurrent,100,61700,61.7,0.0617,1620745.542949757,617
+2025-07-10 17:15:30,sync_order_operations/concurrent,Sync Concurrent,1000,580000,580,0.58,1724137.9310344828,580
+2025-07-10 17:15:30,sync_order_operations/concurrent,Sync Concurrent,10000,6000000,6000,6,1666666.6666666667,600
+2025-07-10 17:15:30,async_order_operations/async,Async,100,105000,105,0.105,952380.9523809523,1050
+2025-07-10 17:15:30,async_order_operations/async,Async,1000,1100000,1100,1.1,909090.9090909091,1100
+2025-07-10 17:15:30,async_order_operations/async,Async,10000,11000000,11000,11,909090.9090909092,1100

@@ -1,0 +1,25 @@
+[package]
+name = "benchmark-async-vs-sync"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+criterion = { version = "0.4", features = ["html_reports"] }
+dashmap = "5.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+futures = "0.3"
+csv = "1.1"
+chrono = { version = "0.4", features = ["serde"] }
+
+[[bench]]
+name = "hft_benchmark"
+harness = false
+
+[[bin]]
+name = "plot_results"
+path = "src/bin/plot_results.rs"
